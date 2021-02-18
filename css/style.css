@@ -38,11 +38,97 @@ nav ul {
 }
 
 /*Capibilites Section*/
+.capabilitiesContainer {
+    display: grid;
+    grid-template-rows: 300px 300px;
+    row-gap: 30px;
+    position: relative;
+    top: 300px;
+}
 h1 {
     font-size: 50px;
     color: #517ea6;
     position: relative;
     text-align: center;
-    top: 250px;
+    margin: 15px auto;
+    top: 230px;
+}
+.card1{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.softSkills {
+    width: 843px;
+    position: relative;
+    left: 30px;
+}
+.researchimg {
+    width: 250px;
+    height: 250px;
+    position: relative;
+    right: 175px;
+}
+.hardSkills{
+    width: 942px;
+}
+.card2{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.designimg {
+    width: 250px;
+    height: 250px;
 }
 
+/* WORK SECTION */
+.myWorkheader {
+    position: relative;
+    top: 375px;
+}
+.workGrid {
+    display: grid;
+    grid-template-rows: 300px 50px 300px 50px;
+    grid-template-areas: 
+        "rowOne"
+        "rowTwo"
+        "rowThree"
+        "rowFour";
+    row-gap: 20px;
+    position: relative;
+    top: 400px;     
+}
+.rowOne {
+    background-image: url(../images/Logos\ Background.png);
+    color: white;
+    font-size: 40pt;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.rowTwo {
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -20px;
+}
+.rowThree {
+    background-image: url(../images/Venture.png);
+    color: white;
+    font-size: 40pt;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.rowFour {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -20px;
+}
+#view {
+    text-align: center;
+}
